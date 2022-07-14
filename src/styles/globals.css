@@ -1,3 +1,60 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .text-title {
+    @apply text-4xl font-semibold;
+  }
+  .text-link {
+    @apply
+      text-base
+      font-semibold
+      transition-colors
+      text-green-400
+      hover:text-green-500
+      dark:text-green-400
+      dark:hover:text-green-500
+  }
+  .text-heading {
+    @apply text-4xl md:text-5xl leading-normal font-semibold 
+  }
+  .section {
+    @apply flex px-2 py-8 md:px-4 items-center justify-center flex-col gap-12
+  }
+  .bg-solid {
+    @apply bg-white dark:bg-black
+  }
+}
+
+#__next {
+  height: 100vh;
+}
+
+body {
+  @apply bg-zinc-100 text-zinc-900 dark:bg-zinc-900 dark:text-zinc-100
+}
+
+@media (min-width: 1361px) and (max-width: 1440px) {
+  html {
+    font-size: 97.5%;
+  }
+}
+
+@media (max-width: 1360px) {
+  html {
+    font-size: 85%;
+  }
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+}
