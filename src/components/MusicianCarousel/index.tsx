@@ -80,7 +80,6 @@ export function MusicianCarousel() {
             centerPadding: '48px',
           },
         },
-
       ]}
     >
       {musicians.map((musician) => (

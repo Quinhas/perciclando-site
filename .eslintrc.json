@@ -38,6 +38,7 @@
             "imports": "never",
             "exports": "never",
             "functions": "never"
-        }]
+        }],
+        "react/jsx-one-expression-per-line": "off"
     }
 }

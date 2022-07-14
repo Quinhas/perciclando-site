@@ -5,41 +5,46 @@ interface SongProps {
   coverUrl: string;
   releaseDate: Date;
   releaseYear: number;
-  releaseType: 'album' | 'single'
+  releaseType: 'album' | 'single';
 }
 
 const songs: SongProps[] = [
   {
     name: 'Arraiá do Perciclando - Festa na Roça / Pula a Fogueira / Isso Aqui Tá Bom Demais',
-    coverUrl: 'https://soup.onerpm.com/web/user/images/1/11/11ZE8db4cQQSIOmyfhOI.200.jpg',
+    coverUrl:
+      'https://soup.onerpm.com/web/user/images/1/11/11ZE8db4cQQSIOmyfhOI.200.jpg',
     releaseYear: 2022,
     releaseType: 'single',
     releaseDate: new Date('2022-07-23'),
   },
   {
     name: 'Anunciação (Cover)',
-    coverUrl: 'https://i.scdn.co/image/ab67616d0000b2732d96ea15d709fbd4140e3ee6',
+    coverUrl:
+      'https://i.scdn.co/image/ab67616d0000b2732d96ea15d709fbd4140e3ee6',
     releaseYear: 2021,
     releaseType: 'single',
     releaseDate: new Date('2021-07-10'),
   },
   {
     name: 'Carol Of The Bells',
-    coverUrl: 'https://i.scdn.co/image/ab67616d00001e024df04fe4149a7e49787246ca',
+    coverUrl:
+      'https://i.scdn.co/image/ab67616d00001e024df04fe4149a7e49787246ca',
     releaseYear: 2020,
     releaseType: 'single',
     releaseDate: new Date('2020-12-25'),
   },
   {
     name: 'Cheia de Manias (Cover)',
-    coverUrl: 'https://i.scdn.co/image/ab67616d00001e026ad69fde2e0ec601b9ad7021',
+    coverUrl:
+      'https://i.scdn.co/image/ab67616d00001e026ad69fde2e0ec601b9ad7021',
     releaseYear: 2020,
     releaseType: 'single',
     releaseDate: new Date('2020-12-20'),
   },
   {
     name: 'Dance Monkey (Cover)',
-    coverUrl: 'https://i.scdn.co/image/ab67616d00001e02b3071b1ac1aa7b72fc487ddc',
+    coverUrl:
+      'https://i.scdn.co/image/ab67616d00001e02b3071b1ac1aa7b72fc487ddc',
     releaseYear: 2020,
     releaseType: 'single',
     releaseDate: new Date('2020-06-04'),
